@@ -1,4 +1,4 @@
-# MONet--Analysis-on-the-Building-of-Training-Datatset-for-Deep-Learning-SAR-Despeckling - (python/pytorch implementation)
+# MONet--Analysis on the Building of Training Datatset for Deep Learning SAR-Despeckling - (python/pytorch implementation)
 
 This code is related to the paper 
 **Analysis-on-the-Building-of-Training-Datatset-for-Deep-Learning-SAR-Despeckling** accepted for Geascience oand Remote Sensing Letters
