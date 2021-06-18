@@ -1,19 +1,20 @@
-# MONet-Analysis on the Building of Training Datatset for Deep Learning SAR-Despeckling - (python/pytorch implementation)
+# Analysis on the Building of Training Datatset for Deep Learning SAR-Despeckling - (python/pytorch implementation)
 
 This code is related to the paper 
-**Analysis-on-the-Building-of-Training-Datatset-for-Deep-Learning-SAR-Despeckling** accepted for Geascience oand Remote Sensing Letters
+**Analysis-on-the-Building-of-Training-Datatset-for-Deep-Learning-SAR-Despeckling** accepted for Geoscience and Remote Sensing Letters.
 
 The pytorch model of **MONet** trained with the three approaches indicated in the paper are provided togheter with the testing phase.
 
 [MONet](https://ieeexplore.ieee.org/document/9261137) is 17 layers CNN with skip connection and a multi-objective cost function L. L is composed of three terms: MSE between output and reference, Kullback-Leibler divergence between estimated noise distribution and the theoretical one, and an edge loss computed on output and the reference. The architecture is shown in the following
 
-![net](/samples/net-1.png)
+![monet](https://user-images.githubusercontent.com/85936968/122596576-5d93a500-d06a-11eb-8ab3-90e44a7d61a2.PNG)
 
-In the folder './models/' three trained model of **MONet** are provided:
- 1. synthetic_MONet: it is the MONet architecture trained with synthetic approach
- 2. multitemporal_MONet: it is the MONet architecture trained with the multitemporal approach
- 3. hybrid_MONet: it is the MONet architecture trained with the hybrid approach
+In the folder './models/' three trained models of **MONet** are provided:
+ 1. **synthetic_MONet**: MONet architecture trained with synthetic approach
+ 2. **multitemporal_MONet**: MONet architecture trained with the multitemporal approach
+ 3. **hybrid_MONet**: MONet architecture trained with the hybrid approach
  
+For more details on the synthetic, multitemporal and hybrid apporach, please refer to the paper.
 
 # Team members
  Sergio Vitale    (contact person, sergio.vitale@uniparthenope.it);
@@ -21,7 +22,7 @@ In the folder './models/' three trained model of **MONet** are provided:
  Vito Pascazio (vito.pascazio@uniparthenope.it)
  
 # License
-Copyright (c) 2020 Dipartimento di Ingegneria and Dipartimento di Scienze e Tecnologie of Università degli Studi di Napoli "Parthenope".
+Copyright (c) 2021 Dipartimento di Ingegneria and Dipartimento di Scienze e Tecnologie of Università degli Studi di Napoli "Parthenope".
 
 All rights reserved. This work should only be used for nonprofit purposes.
 
@@ -40,4 +41,4 @@ The requirements and installation instruction are in the **requiremetnts.txt** f
 *  **imgs** folder contains one real SAR sample from the ICEYE sensors.
 * The image is a  single look speckle in amplitude format;
 
-* **models** folder contains the pre-trained networks
+* **models** folder contains the pre-trained networks ready for testing
