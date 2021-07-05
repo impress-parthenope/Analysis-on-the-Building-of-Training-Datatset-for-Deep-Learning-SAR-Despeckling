@@ -10,7 +10,7 @@ The pytorch model of **MONet** trained with the three approaches indicated in th
 ![monet](https://user-images.githubusercontent.com/85936968/122596576-5d93a500-d06a-11eb-8ab3-90e44a7d61a2.PNG)
 
 In the folder './models/' three trained models of **MONet** are provided:
- 1. **synthetic_MONet**: MONet architecture trained with synthetic approach
+ 1. **synthetic_MONet**: MONet architecture trained with synthetic approach (this is the modelpublished in [MONet](https://ieeexplore.ieee.org/document/9261137))
  2. **multitemporal_MONet**: MONet architecture trained with the multitemporal approach
  3. **hybrid_MONet**: MONet architecture trained with the hybrid approach
  
