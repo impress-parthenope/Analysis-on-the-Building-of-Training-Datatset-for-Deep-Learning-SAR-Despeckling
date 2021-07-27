@@ -1,4 +1,4 @@
-name: my_pytorch
+name: monet_pytorch
 channels:
   - pytorch
   - anaconda
