@@ -35,10 +35,24 @@ terms of the license, as specified in the document LICENSE.txt
 # Prerequisits
 This code is written on Ubuntu system for Python3.7 and uses Pytorch library.
 
-The requirements and installation instruction are in the **requiremetnts.txt** file
+In the folder **./env/** you can find the requirements:
+
+**Installing the conda environement by .yml file**
+* the file ./env/monet_pytorch.yml contains the environemnt for testing the code. You can easily installing it by command line
+
+> conda env create -f monet_pytorch.yml
+
+* in order to run 'conda' command, you need to install anaconda. 
+Please follow the instruction in anaconda_installation.txt
+
+
+
 
 
 # Usage 
+* activate the environement monet_pytorch and run spyder
+> conda activate monet_pytorch
+> spyder
 * edit and run **test.py**
 *  **imgs** folder contains one real SAR sample from the ICEYE sensors.
 * The image is a  single look speckle in amplitude format;
