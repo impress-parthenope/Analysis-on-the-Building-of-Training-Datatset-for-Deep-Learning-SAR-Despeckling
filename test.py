@@ -47,7 +47,7 @@ device=-1           # device selection
 if device >=0:
     device = torch.device('cuda:%d'%(device) if torch.cuda.is_available() else "cpu")
 else:
-    device = 'cpu'
+    device = torch.device("cpu")
 print(device)
 
 if not os.path.exists(path_out):
