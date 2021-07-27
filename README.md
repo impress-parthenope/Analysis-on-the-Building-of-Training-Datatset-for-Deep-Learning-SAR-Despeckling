@@ -1,13 +1,15 @@
 # Analysis on the Building of Training Datatset for Deep Learning SAR-Despeckling - (python/pytorch implementation)
 
 This code is related to the paper 
-**Analysis-on-the-Building-of-Training-Datatset-for-Deep-Learning-SAR-Despeckling** accepted for Geoscience and Remote Sensing Letters.
+[**Analysis on the Building of Training Datatset for Deep Learning SAR Despeckling**](https://ieeexplore.ieee.org/document/9474572) published on Geoscience and Remote Sensing Letters.
 
 The pytorch model of **MONet** trained with the three approaches indicated in the paper are provided togheter with the testing phase.
 
 [MONet](https://ieeexplore.ieee.org/document/9261137) is 17 layers CNN with skip connection and a multi-objective cost function L. L is composed of three terms: MSE between output and reference, Kullback-Leibler divergence between estimated noise distribution and the theoretical one, and an edge loss computed on output and the reference. The architecture is shown in the following
 
 ![monet](https://user-images.githubusercontent.com/85936968/122596576-5d93a500-d06a-11eb-8ab3-90e44a7d61a2.PNG)
+
+The pytorch MONet architecture is defined in **'./Utilities/model_MONET.py'**
 
 In the folder './models/' three trained models of **MONet** are provided:
  1. **synthetic_MONet**: MONet architecture trained with synthetic approach (this is the modelpublished in [MONet](https://ieeexplore.ieee.org/document/9261137))
