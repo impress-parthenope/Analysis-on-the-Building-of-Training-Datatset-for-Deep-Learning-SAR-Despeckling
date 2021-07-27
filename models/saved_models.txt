@@ -1,1 +1,5 @@
 
+In this folder are stored the MONet models trained with the three approached described in the paper:
+
+S. Vitale, G. Ferraioli and V. Pascazio, "Analysis on the Building of Training Dataset for Deep Learning SAR Despeckling," in IEEE Geoscience and Remote Sensing Letters, doi: 10.1109/LGRS.2021.3091287.
+
