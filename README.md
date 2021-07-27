@@ -54,6 +54,12 @@ The file ./env/monet_pytorch.yml contains the environemnt for the testing the co
  > conda env create -f monet_pytorch.yml
 
 # Usage 
+*  **./imgs/** folder contains the input testing image: one real SAR sample from the ICEYE sensorsin the  single look speckle amplitude format
+
+* **./models/** folder contains the pre-trained networks ready for testing
+* **./Utilities/** folder contain the pytorch architecture of MONet and some auxiliar codes
+* **./results/** folder is the output saving path
+
 Once the pre-requisites are fulfilled, open the terminal:
 
 1. activate the environemnt from the command line
@@ -66,7 +72,4 @@ Once the pre-requisites are fulfilled, open the terminal:
 
 3. goes to the folder containing **test.py**, edit and run
 
-*  **imgs** folder contains one real SAR sample from the ICEYE sensors.
-* The image is a  single look speckle in amplitude format;
 
-* **models** folder contains the pre-trained networks ready for testing
