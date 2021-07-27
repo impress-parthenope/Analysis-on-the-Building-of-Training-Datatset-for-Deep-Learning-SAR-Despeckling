@@ -32,7 +32,7 @@ By downloading and/or using any of these files, you implicitly agree to all the
 terms of the license, as specified in the document LICENSE.txt
 (included in this directory)
 
-# Prerequisits
+# Prerequisites
 This code is written on Ubuntu system for Python3.7 and uses Pytorch library.
 
 For a correct usage of the code, please install the python environement saved in **./env/monet_pytorch.yml** with the following step:
