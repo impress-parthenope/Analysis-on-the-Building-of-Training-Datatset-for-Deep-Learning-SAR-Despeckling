@@ -54,7 +54,7 @@ if not os.path.exists(path_out):
     os.makedirs(path_out)
 
 #%% Testing for each training dataset
-from model import Net
+from model_MONet import Net
 from input_preparation import net_scope, preparation
 
 net=Net() #model loading
