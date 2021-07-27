@@ -51,7 +51,7 @@ For a correct usage of the code, please install the python environement saved in
 > conda env create -f monet_pytorch.yml
 
 # Usage 
-* activate the environement monet_pytorch and run spyder
+* from command line: activate the environement monet_pytorch and run spyder
 > conda activate monet_pytorch
 
 > spyder
