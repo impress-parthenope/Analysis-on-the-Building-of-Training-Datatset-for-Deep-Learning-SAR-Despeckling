@@ -53,6 +53,7 @@ For a correct usage of the code, please install the python environement saved in
 # Usage 
 * activate the environement monet_pytorch and run spyder
 > conda activate monet_pytorch
+
 > spyder
 * edit and run **test.py**
 *  **imgs** folder contains one real SAR sample from the ICEYE sensors.
